@@ -18,6 +18,10 @@
 
     curl -fsSL https://claude.ai/install.sh | bash
 
+## Optional: Install GitHub CLI
+
+    brew install gh
+
 ## Optional: Setup Git Authentication
 
 Step A:
@@ -35,3 +39,7 @@ Step C:
 Step D:
 
     gh auth setup-git
+
+## Optional: Install Steam
+
+    flatpak install com.valvesoftware.Steam
