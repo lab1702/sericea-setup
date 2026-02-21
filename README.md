@@ -40,6 +40,10 @@ Step D:
 
     gh auth setup-git
 
+## Optional: Install Discord
+
+    flatpak install com.discordapp.Discord
+
 ## Optional: Install Steam
 
     flatpak install com.valvesoftware.Steam
