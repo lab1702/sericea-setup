@@ -1,12 +1,8 @@
 # sericea-setup
 
-## Enable Dark Mode
+## Run Setup Script
 
-    gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
-
-## Enable Flathub
-
-    flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+    curl -fsSL https://raw.githubusercontent.com/lab1702/sericea-setup/refs/heads/main/setup.sh | bash
 
 ---
 
