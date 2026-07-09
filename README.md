@@ -6,6 +6,11 @@
 
 ---
 
+## Toolbox Setup
+
+    toolbox create
+    toolbox enter
+
 ## Optional: Setup Claude Code
 
     curl -fsSL https://claude.ai/install.sh | bash
