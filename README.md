@@ -18,7 +18,7 @@ Step B:
 
 ### Additional Tools Inside Toolbox
 
-    sudo dnf install gh fzf ripgrep python3-devel python3-pip gcc R gcc-c++ gcc-gfortran libcurl-devel openssl-devel libxml2-devel go nodejs
+    sudo dnf install gh fzf ripgrep R gcc gcc-c++ gcc-gfortran make cmake libcurl-devel openssl-devel libxml2-devel go
 
 ## Optional: Setup Claude Code CLI
 
