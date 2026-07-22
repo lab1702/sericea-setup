@@ -8,12 +8,17 @@
 
 ## Toolbox Setup
 
+Step A:
+
     toolbox create
+
+Step B:
+
     toolbox enter
 
 ### Additional Tools Inside Toolbox
 
-    sudo dnf install gh
+    sudo dnf install gh go R fzf ripgrep
 
 ## Optional: Setup Claude Code CLI
 
