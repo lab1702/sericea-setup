@@ -18,7 +18,7 @@ Step B:
 
 ### Additional Tools Inside Toolbox
 
-    sudo dnf install gh chromium fzf ripgrep btop uv python3-devel R gcc gcc-c++ gcc-gfortran make cmake libcurl-devel openssl-devel libxml2-devel go rust julia gnucobol
+    sudo dnf install gh chromium fzf ripgrep btop uv python3-devel R gcc gcc-c++ gcc-gfortran make cmake libcurl-devel openssl-devel libxml2-devel go rust cargo nodejs julia gnucobol
 
 ## Optional: Setup Claude Code CLI
 
