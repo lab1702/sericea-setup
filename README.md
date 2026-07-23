@@ -8,45 +8,65 @@
 
 ## Toolbox Setup
 
-Step A:
+This resets any existing toolbox:
 
-    toolbox create
+```bash
+toolbox rm --force "fedora-toolbox-$(rpm -E %fedora)" && toolbox create -y
+```
 
 Step B:
 
-    toolbox enter
+```bash
+toolbox enter
+```
 
 ### Additional Tools Inside Toolbox
 
-    sudo dnf install gh chromium fzf ripgrep btop uv python3-devel R gcc gcc-c++ gcc-gfortran make cmake libcurl-devel openssl-devel libxml2-devel go rust cargo rustfmt clippy rust-src rust-analyzer pkgconf-pkg-config nodejs julia gnucobol
+```bash
+sudo dnf install gh chromium fzf ripgrep btop uv python3-devel R gcc gcc-c++ gcc-gfortran make cmake libcurl-devel openssl-devel libxml2-devel go rust cargo rustfmt clippy rust-src rust-analyzer pkgconf-pkg-config nodejs julia gnucobol
+```
 
 ## Optional: Setup Claude Code CLI
 
-    curl -fsSL https://claude.ai/install.sh | bash
+```bash
+curl -fsSL https://claude.ai/install.sh | bash
+```
 
 ## Optional: Setup Git Authentication
 
 Step A:
 
-    git config --global user.name "abc"
+```bash
+git config --global user.name "abc"
+```
 
 Step B:
 
-    git config --global user.email "abc@gmail.com"
+```bash
+git config --global user.email "abc@gmail.com"
+```
 
 Step C:
 
-    gh auth login
+```bash
+gh auth login
+```
 
 Step D:
 
-    gh auth setup-git
-    git config --global init.defaultBranch main
+```bash
+gh auth setup-git
+git config --global init.defaultBranch main
+```
 
 ## Optional: Install Discord
 
-    flatpak install com.discordapp.Discord
+```bash
+flatpak install com.discordapp.Discord
+```
 
 ## Optional: Install Steam
 
-    flatpak install com.valvesoftware.Steam
+```bash
+flatpak install com.valvesoftware.Steam
+```
