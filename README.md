@@ -2,7 +2,9 @@
 
 ## Run Setup Script
 
-    curl -fsSL https://raw.githubusercontent.com/lab1702/sericea-setup/refs/heads/main/setup.sh | bash
+```bash
+curl -fsSL https://raw.githubusercontent.com/lab1702/sericea-setup/refs/heads/main/setup.sh | bash
+```
 
 ---
 
