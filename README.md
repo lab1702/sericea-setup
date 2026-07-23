@@ -18,7 +18,7 @@ Step B:
 
 ### Additional Tools Inside Toolbox
 
-    sudo dnf install gh chromium fzf ripgrep uv R gcc gcc-c++ gcc-gfortran make cmake libcurl-devel openssl-devel libxml2-devel fontconfig-devel libuv-devel freetype-devel harfbuzz-devel fribidi-devel libpng-devel libjpeg-turbo-devel libtiff-devel go
+    sudo dnf install gh chromium fzf ripgrep uv python3-devel R gcc gcc-c++ gcc-gfortran make cmake libcurl-devel openssl-devel libxml2-devel fontconfig-devel libuv-devel freetype-devel harfbuzz-devel fribidi-devel libpng-devel libjpeg-turbo-devel libtiff-devel go
 
 ## Optional: Setup Claude Code CLI
 
