@@ -16,7 +16,7 @@ This resets any existing toolbox:
 toolbox rm --force "fedora-toolbox-$(rpm -E %fedora)" && toolbox create -y
 ```
 
-Step B:
+Then:
 
 ```bash
 toolbox enter
