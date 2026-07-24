@@ -9,7 +9,7 @@ curl -fsSL https://raw.githubusercontent.com/lab1702/sericea-setup/refs/heads/ma
 ## Enable SSHD
 
 ```bash
-sudo systemctl enable --now sshd
+systemctl enable --now sshd
 ```
 
 ---
