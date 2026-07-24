@@ -1,5 +1,11 @@
 # sericea-setup
 
+## Update OS Image
+
+```bash
+rpm-ostree update
+```
+
 ## Set Hostname
 
 ```bash
