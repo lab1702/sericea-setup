@@ -65,6 +65,12 @@ gh auth setup-git
 git config --global init.defaultBranch main
 ```
 
+## Optional: Install LibreOffice
+
+```bash
+flatpak install flathub org.libreoffice.LibreOffice
+```
+
 ## Optional: Install Discord
 
 ```bash
