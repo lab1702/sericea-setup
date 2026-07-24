@@ -1,15 +1,21 @@
 # sericea-setup
 
-## Run Setup Script
+## Set Hostname
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/lab1702/sericea-setup/refs/heads/main/setup.sh | bash
+hostnamectl set-hostname name
 ```
 
 ## Enable SSHD
 
 ```bash
 systemctl enable --now sshd
+```
+
+## Run Setup Script
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/lab1702/sericea-setup/refs/heads/main/setup.sh | bash
 ```
 
 ---
