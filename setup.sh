@@ -10,7 +10,6 @@ gtk-theme-name=Adwaita-dark
 gtk-application-prefer-dark-theme=1
 EOF
 
-
 mkdir -p ~/.config/sway/config.d
 echo 'output * bg #000000 solid_color' > ~/.config/sway/config.d/99-background.conf
 
