@@ -6,6 +6,12 @@
 curl -fsSL https://raw.githubusercontent.com/lab1702/sericea-setup/refs/heads/main/setup.sh | bash
 ```
 
+## Enable SSHD
+
+```bash
+sudo systemctl enable --now sshd
+```
+
 ---
 
 ## Toolbox Setup
