@@ -74,11 +74,11 @@ flatpak install flathub org.libreoffice.LibreOffice
 ## Optional: Install Discord
 
 ```bash
-flatpak install com.discordapp.Discord
+flatpak install flathub com.discordapp.Discord
 ```
 
 ## Optional: Install Steam
 
 ```bash
-flatpak install com.valvesoftware.Steam
+flatpak install flathub com.valvesoftware.Steam
 ```
