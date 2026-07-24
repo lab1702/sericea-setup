@@ -82,3 +82,9 @@ flatpak install flathub com.discordapp.Discord
 ```bash
 flatpak install flathub com.valvesoftware.Steam
 ```
+
+## Optional: Update Flatpaks
+
+```bash
+flatpak update
+```
