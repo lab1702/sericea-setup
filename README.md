@@ -1,4 +1,4 @@
-# sericea-setup
+# fedora-atomic-setup
 
 ## Update OS Image
 
@@ -12,10 +12,10 @@ rpm-ostree update
 hostnamectl set-hostname name
 ```
 
-## Run Setup Script
+## Run Sericea Setup Script
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/lab1702/sericea-setup/refs/heads/main/setup.sh | bash
+curl -fsSL https://raw.githubusercontent.com/lab1702/fedora-atomic-setup/refs/heads/main/setup.sh | bash
 ```
 
 ## Toolbox Setup
