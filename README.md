@@ -71,6 +71,12 @@ gh auth setup-git
 git config --global init.defaultBranch main
 ```
 
+## Optional: Configure Flathub
+
+```bash
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+```
+
 ## Optional: Install LibreOffice
 
 ```bash
