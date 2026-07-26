@@ -83,6 +83,12 @@ flatpak install flathub org.libreoffice.LibreOffice
 flatpak install flathub com.discordapp.Discord
 ```
 
+## Optional: Install Zoom
+
+```bash
+flatpak install flathub us.zoom.Zoom
+```
+
 ## Optional: Install Steam
 
 ```bash
