@@ -20,7 +20,7 @@ curl -fsSL https://raw.githubusercontent.com/lab1702/fedora-atomic-setup/refs/he
 
 ## Toolbox Setup
 
-This resets any existing toolbox:
+This resets any existing default toolbox:
 
 ```bash
 toolbox rm --force "fedora-toolbox-$(rpm -E %fedora)" && toolbox create -y
