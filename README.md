@@ -35,7 +35,7 @@ toolbox enter
 ### Additional Tools Inside Toolbox
 
 ```bash
-sudo dnf install -y gh fzf ripgrep btop uv python3-virtualenv python3-devel R gcc gcc-c++ gcc-gfortran make cmake libcurl-devel openssl-devel libxml2-devel go rustup pkgconf-pkg-config nodejs julia gnucobol
+sudo dnf install -y gh jq fzf ripgrep btop uv python3-virtualenv python3-devel R gcc gcc-c++ gcc-gfortran make cmake libcurl-devel openssl-devel libxml2-devel go rustup pkgconf-pkg-config nodejs julia gnucobol
 ```
 
 ## Optional: Setup Claude Code CLI
